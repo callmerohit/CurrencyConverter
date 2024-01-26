@@ -22,9 +22,6 @@ body{
     text-align: center;
     font-family: serif;
 }
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  /* Styles for screens with a width between 601 and 900 pixels */
-}
 .container{
     background-color: #a3b18a;
     box-shadow: 0 0 10px #344e41;
@@ -111,4 +108,35 @@ i{
     bottom: 1rem;
     font-size: 1.20rem;
     color: #344e41;
+}
+
+@media(max-width:500px){
+    .heading{
+        width:100%;
+        font-size: 1.7rem;
+    }
+    .container{
+        min-height: 30vh;
+        width: 35vh;
+    }
+    .exBtn{
+        width: 12rem;
+        font-size: 1rem;
+        margin-left: 1.8rem;
+    }
+    .from{
+        margin-right: 0.5rem;
+    }
+    .to{
+        margin-left :0.5rem; ;
+    }
+    .select-container{
+        width: 6rem;
+    }
+    .select-container img{
+        max-width: 2rem;
+    }
+    .msg{
+        font-size: 1rem;
+    }
 }
