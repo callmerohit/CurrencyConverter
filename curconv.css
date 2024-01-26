@@ -22,6 +22,9 @@ body{
     text-align: center;
     font-family: serif;
 }
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  /* Styles for screens with a width between 601 and 900 pixels */
+}
 .container{
     background-color: #a3b18a;
     box-shadow: 0 0 10px #344e41;
